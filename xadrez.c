@@ -1,6 +1,7 @@
 #include <stdio.h>
 // Desafio de Xadrez - MateCheck
-// Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
+//ANDRE SILVA DOS SANTOS
+
     int main(){  
     // Nível Novato - Movimentação das Peças
     // Declarando variáveis constantes para representar o número de casas que cada peça pode se mover.
@@ -19,7 +20,7 @@
     }   
         printf("\n"); 
     // Implementação de Movimentação da Torre
-    // Usando 'FOR' para simular a movimentação TORRE (5 vezes).
+    // Usando 'FOR' para simular a movimentação da TORRE (5 vezes).
     printf("TORRE: %d casas: \n", casasTorre);
     for (int j = 1; j <= casasTorre; j++){
         printf("Passo %d: FRENTE\n", j);
@@ -27,7 +28,7 @@
         printf("\n");
 
     // Implementação de Movimentação da Rainha
-    // Foi utilizada a estrutura de repetição DO-WHILE para simular a movimentação da Rainha para a esquerda (8vezes).
+    // Usando 'DO-WHILE' para simular a movimentação da RAINHA para a esquerda (8 vezes).
     printf("RAINHA: %d casas: \n", casasRainha);
     int k = 1;
     do{
